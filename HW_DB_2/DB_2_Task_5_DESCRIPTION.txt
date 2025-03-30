@@ -26,7 +26,7 @@ class_stats as (                                			--aggregate stats by class
     group by 
         class
     having 
-        count(case when avg_position > 3.0 then 1 end) > 0  --classes with at least one low performer
+        count(case when avg_position > 3.0 then 1 end) > 0  		--classes with at least one low performer
 )
 select 
     cs.car as car_name,
@@ -52,23 +52,23 @@ order by
 
 # Result:
 
-car_name			car_class	average_position	race_count	car_country		total_races		low_performance_count
-Audi A4					Sedan		8.0000				1			Germany			2					1
-Renault Clio		Hatchback		5.0000				1			France			1					1
-Chevrolet Camaro		Coupe		4.0000				1			USA				1					1
-Ford F-150				Pickup		6.0000				1			USA				1					1
+car_name			car_class	average_position	race_count	car_country	total_races	low_performance_count
+Audi A4				Sedan		8.0000			1		Germany		2		1
+Renault Clio			Hatchback	5.0000			1		France		1		1
+Chevrolet Camaro		Coupe		4.0000			1		USA		1		1
+Ford F-150			Pickup		6.0000			1		USA		1		1
 
 
 # Expected result:
 
-car_name			car_class	average_position	race_count	car_country		total_races		low_position_count
-Audi A4					Sedan		8.0000				1			Germany			2					2
-Chevrolet Camaro		Coupe		4.0000				1			USA				1					1
-Renault Clio		Hatchback		5.0000				1			France			1					1
-Ford F-150				Pickup		6.0000				1			USA				1					1
+car_name			car_class	average_position	race_count	car_country	total_races	low_position_count
+Audi A4				Sedan		8.0000			1		Germany		2		2
+Chevrolet Camaro		Coupe		4.0000			1		USA		1		1
+Renault Clio			Hatchback	5.0000			1		France		1		1
+Ford F-150			Pickup		6.0000			1		USA		1		1
 
 
-Возможно у вас ошибка в ожидаемом результате, или я неправильно понимаю задание:
+Возможно в ожидаемом результате ошибка, или я неправильно понимаю задание:
 
 select 
 	r.car,
@@ -85,8 +85,8 @@ order by
 
 # Result:
 
-car				position	class
-BMW 3 Series		3		Sedan
-Audi A4				8		Sedan
+car		position	class
+BMW 3 Series	3		Sedan
+Audi A4		8		Sedan
 
 Получается в классе Sedan 2 автомобиля. Позиции каждого автомобиля 3 и 8. Раз условия > 3.0, значит берется 1 автомобиль и в low_position_count будет значение 1, а не 2.
