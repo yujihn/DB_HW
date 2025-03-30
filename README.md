@@ -24,21 +24,6 @@
 *    DB_4_Initialisation.sql – скрипт создания и наполнения четвёртой базы данных.  
 *    DB_4_Task_1.sql, DB_4_Task_2.sql, DB_4_Task_3.sql – SQL-скрипты с решениями.  
 
-my-app/
-├─ node_modules/
-├─ public/
-│  ├─ favicon.ico
-│  ├─ index.html
-│  ├─ robots.txt
-├─ src/
-│  ├─ index.css
-│  ├─ index.js
-├─ .gitignore
-├─ package.json
-├─ README.md
-new_file
-
-
 ## 3. **Инструкция по запуску.**  
 ##### 3.1. Создайте базу данных (если ещё не создана):  
 ``
