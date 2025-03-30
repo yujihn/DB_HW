@@ -25,30 +25,30 @@
 *    DB_4_Task_1.sql, DB_4_Task_2.sql, DB_4_Task_3.sql – SQL-скрипты с решениями.  
 
 HW_DB_Tasks  
-|  
-├── HW_DB_1/  
-|    ├── DB_1_Initialisation.sql  
-|    ├── DB_1_Task_1.sql  
-|    └── DB_1_Task_2.sql  
-|  
-├── HW_DB_2/  
-│    ├── DB_2_Initialisation.sql  
-│    ├── DB_2_Task_1.sql  
-│    ├── DB_2_Task_2.sql  
-│    ├── DB_2_Task_3.sql  
-│    ├── DB_2_Task_4.sql  
-│    └── DB_2_Task_5.sql  
-├── HW_DB_3/  
-│    ├── DB_3_Initialisation.sql  
-│    ├── DB_3_Task_1.sql  
-│    ├── DB_3_Task_2.sql  
-│    └── DB_3_Task_3.sql  
-├── HW_DB_4/  
-│    ├── DB_4_Initialisation.sql  
-│    ├── DB_4_Task_1.sql  
-│    ├── DB_4_Task_2.sql  
-│    └── DB_4_Task_3.sql  
-└── README.md  
+    |  
+    ├── HW_DB_1/  
+    |    ├── DB_1_Initialisation.sql  
+    |    ├── DB_1_Task_1.sql  
+    |    └── DB_1_Task_2.sql  
+    |  
+    ├── HW_DB_2/  
+    │    ├── DB_2_Initialisation.sql  
+    │    ├── DB_2_Task_1.sql  
+    │    ├── DB_2_Task_2.sql  
+    │    ├── DB_2_Task_3.sql  
+    │    ├── DB_2_Task_4.sql  
+    │    └── DB_2_Task_5.sql  
+    ├── HW_DB_3/  
+    │    ├── DB_3_Initialisation.sql  
+    │    ├── DB_3_Task_1.sql  
+    │    ├── DB_3_Task_2.sql  
+    │    └── DB_3_Task_3.sql  
+    ├── HW_DB_4/  
+    │    ├── DB_4_Initialisation.sql  
+    │    ├── DB_4_Task_1.sql  
+    │    ├── DB_4_Task_2.sql  
+    │    └── DB_4_Task_3.sql  
+    └── README.md  
 
 ## 3. **Инструкция по запуску.**  
 ##### 3.1. Создайте базу данных (если ещё не создана):  
