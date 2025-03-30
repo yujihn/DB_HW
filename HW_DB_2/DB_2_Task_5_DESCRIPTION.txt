@@ -1,6 +1,6 @@
 Задача 5.
 Определить, какие классы автомобилей имеют наибольшее количество автомобилей с низкой средней позицией (больше 3.0) и вывести информацию о каждом автомобиле из этих классов, включая его имя, класс, среднюю позицию, количество гонок, в которых он участвовал, страну производства класса автомобиля, а также общее количество гонок для каждого класса. Отсортировать результаты по количеству автомобилей с низкой средней позицией.
-``
+
 with car_stats as (                              			--collect stats for each car
     select 
         c.name as car,
@@ -26,7 +26,7 @@ class_stats as (                                			--aggregate stats by class
     group by 
         class
     having 
-        count(case when avg_position > 3.0 then 1 end) > 0  --classes with at least one low performer
+        count(case when avg_position > 3.0 then 1 end) > 0  		--classes with at least one low performer
 )
 select 
     cs.car as car_name,
@@ -48,7 +48,7 @@ order by
     cls.low_performance_count desc,             			--sort by count of low performers
     cs.class asc,                              				--then by class
     cs.avg_position desc;                       			--then by worst performance first
-``
+
 
 # Result:
 
@@ -69,7 +69,7 @@ Ford F-150			Pickup		6.0000			1		USA		1		1
 
 
 Возможно у вас ошибка в ожидаемом результате, или я неправильно понимаю задание:
-``
+
 select 
 	r.car,
 	r.position,
@@ -82,7 +82,7 @@ where
 	c.class = 'Sedan'
 order by 
 	r.position;
-``
+
 # Result:
 
 car		position	class
