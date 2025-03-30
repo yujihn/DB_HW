@@ -7,76 +7,76 @@ Yamaha	YZF-R1
 **DB_1_Task_2**  
   
 maker	model	horsepower	engine_capacity		vehicle_type  
-Toyota	Camry	203			2.50				Car  
-Yamaha	YZF-R1	200			1.00				Motorcycle  
-Honda	Civic	158			2.00				Car  
-Trek	Domane	NULL		NULL				Bicycle  
-Giant	Defy	NULL		NULL				Bicycle  
+Toyota	Camry	203			2.50		Car  
+Yamaha	YZF-R1	200			1.00		Motorcycle  
+Honda	Civic	158			2.00		Car  
+Trek	Domane	NULL			NULL		Bicycle  
+Giant	Defy	NULL			NULL		Bicycle  
   
   
 **DB_2_Task_1**  
   
-class			car						avg_position	races_count		car_type	country  
-SportsCar		Ford Mustang			1				1				Racing		USA  
-Convertible		Ferrari 488				1				1				Racing		Italy  
-SUV				Toyota RAV4				2				1				Street		Japan  
-Luxury Sedan	Mercedes-Benz S-Class	2				1				Street		Germany  
-Sedan			BMW 3 Series			3				1				Street		Germany  
-Coupe			Chevrolet Camaro		4				1				Street		USA  
-Hatchback		Renault Clio			5				1				Street		France  
-Pickup			Ford F-150				6				1				Street		USA  
+class			car			avg_position	races_count	car_type	country  
+SportsCar		Ford Mustang		1		1		Racing		USA  
+Convertible		Ferrari 488		1		1		Racing		Italy  
+SUV			Toyota RAV4		2		1		Street		Japan  
+Luxury Sedan		Mercedes-Benz S-Class	2		1		Street		Germany  
+Sedan			BMW 3 Series		3		1		Street		Germany  
+Coupe			Chevrolet Camaro	4		1		Street		USA  
+Hatchback		Renault Clio		5		1		Street		France  
+Pickup			Ford F-150		6		1		Street		USA  
   
 **DB_2_Task_2**  
   
-car				class			avg_position	races_count		country  
-Ferrari 488		Convertible		1				1				Italy  
+car		class			avg_position	races_count		country  
+Ferrari 488	Convertible		1		1			Italy  
   
 **DB_2_Task_3**  
   
 car_name		car_class		average_position	race_count	car_country		total_races  
-Ferrari 488		Convertible		1					1			Italy			1  
-Ford Mustang	SportsCar		1					1			USA				1  
+Ferrari 488		Convertible		1			1		Italy			1  
+Ford Mustang		SportsCar		1			1		USA			1  
   
 **DB_2_Task_4**  
   
 car_name		car_class	average_position	race_count	car_country  
-BMW 3 Series	Sedan		3					1			Germany  
-Toyota RAV4		SUV			2					1			Japan  
+BMW 3 Series		Sedan		3			1		Germany  
+Toyota RAV4		SUV		2			1		Japan  
   
 **DB_2_Task_5**  
   
-car_name			car_class	average_position	race_count	car_country		total_races		low_performance_count  
-Audi A4				Sedan		8.0000				1			Germany			2				1  
-Renault Clio		Hatchback	5.0000				1			France			1				1  
-Chevrolet Camaro	Coupe		4.0000				1			USA				1				1  
-Ford F-150			Pickup		6.0000				1			USA				1				1  
+car_name		car_class	average_position	race_count	car_country		total_races		low_performance_count  
+Audi A4			Sedan		8.0000				1	Germany			2			1  
+Renault Clio		Hatchback	5.0000				1	France			1			1  
+Chevrolet Camaro	Coupe		4.0000				1	USA			1			1  
+Ford F-150		Pickup		6.0000				1	USA			1			1  
   
   
 **DB_3_Task_1**
   
-name		email					phone			total_bookings		hotels_list								avg_stay_duration  
-Bob Brown	bob.brown@example.com	+2233445566		3					Grand Hotel, Ocean View Resort			3  
-Ethan Hunt	ethan.hunt@example.com	+5566778899		3					Mountain Retreat, Ocean View Resort		3  
+name		email			phone		total_bookings		hotels_list				avg_stay_duration  
+Bob Brown	bob.brown@example.com	+2233445566	3			Grand Hotel, Ocean View Resort		3  
+Ethan Hunt	ethan.hunt@example.com	+5566778899	3			Mountain Retreat, Ocean View Resort	3  
   
 **DB_3_Task_2**  
   
-id_customer		name		bookings_count	total_spent		unique_hotels  
-	4			Bob Brown	3				820.00			2  
-	7			Ethan Hunt	3				850.00			2  
+id_customer	name		bookings_count	total_spent		unique_hotels  
+	4	Bob Brown	3		820.00			2  
+	7	Ethan Hunt	3		850.00			2  
   
 **DB_3_Task_3**  
   
-id_customer		name				preferred_hotel_type	visited_hotels  
-	10			Hannah Montana		Дешевый					City Center Inn  
-	3			Alice Johnson		Средний					Grand Hotel  
-	4			Bob Brown			Средний					Grand Hotel, Ocean View Resort  
-	5			Charlie White		Средний					Ocean View Resort  
-	6			Diana Prince		Средний					Ocean View Resort  
-	2			Jane Smith			Средний					Grand Hotel  
-	1			John Doe			Средний					City Center Inn, Grand Hotel  
-	7			Ethan Hunt			Дорогой					Mountain Retreat, Ocean View Resort  
-	8			Fiona Apple			Дорогой					Mountain Retreat  
-	9			George Washington	Дорогой					City Center Inn, Mountain Retreat  
+id_customer	name			preferred_hotel_type	visited_hotels  
+	10	Hannah Montana		Дешевый			City Center Inn  
+	3	Alice Johnson		Средний			Grand Hotel  
+	4	Bob Brown		Средний			Grand Hotel, Ocean View Resort  
+	5	Charlie White		Средний			Ocean View Resort  
+	6	Diana Prince		Средний			Ocean View Resort  
+	2	Jane Smith		Средний			Grand Hotel  
+	1	John Doe		Средний			City Center Inn, Grand Hotel  
+	7	Ethan Hunt		Дорогой			Mountain Retreat, Ocean View Resort  
+	8	Fiona Apple		Дорогой			Mountain Retreat  
+	9	George Washington	Дорогой			City Center Inn, Mountain Retreat  
   
   
 **DB_4_Task_1**  
