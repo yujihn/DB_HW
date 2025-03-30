@@ -1,6 +1,6 @@
 Задача 5.
 Определить, какие классы автомобилей имеют наибольшее количество автомобилей с низкой средней позицией (больше 3.0) и вывести информацию о каждом автомобиле из этих классов, включая его имя, класс, среднюю позицию, количество гонок, в которых он участвовал, страну производства класса автомобиля, а также общее количество гонок для каждого класса. Отсортировать результаты по количеству автомобилей с низкой средней позицией.
-
+``
 with car_stats as (                              			--collect stats for each car
     select 
         c.name as car,
@@ -48,28 +48,28 @@ order by
     cls.low_performance_count desc,             			--sort by count of low performers
     cs.class asc,                              				--then by class
     cs.avg_position desc;                       			--then by worst performance first
-
+``
 
 # Result:
 
-car_name			car_class	average_position	race_count	car_country		total_races		low_performance_count
-Audi A4					Sedan		8.0000				1			Germany			2					1
-Renault Clio		Hatchback		5.0000				1			France			1					1
-Chevrolet Camaro		Coupe		4.0000				1			USA				1					1
-Ford F-150				Pickup		6.0000				1			USA				1					1
+car_name			car_class	average_position	race_count	car_country	total_races	low_performance_count
+Audi A4				Sedan		8.0000			1		Germany		2		1
+Renault Clio			Hatchback	5.0000			1		France		1		1
+Chevrolet Camaro		Coupe		4.0000			1		USA		1		1
+Ford F-150			Pickup		6.0000			1		USA		1		1
 
 
 # Expected result:
 
-car_name			car_class	average_position	race_count	car_country		total_races		low_position_count
-Audi A4					Sedan		8.0000				1			Germany			2					2
-Chevrolet Camaro		Coupe		4.0000				1			USA				1					1
-Renault Clio		Hatchback		5.0000				1			France			1					1
-Ford F-150				Pickup		6.0000				1			USA				1					1
+car_name			car_class	average_position	race_count	car_country	total_races	low_position_count
+Audi A4				Sedan		8.0000			1		Germany		2		2
+Chevrolet Camaro		Coupe		4.0000			1		USA		1		1
+Renault Clio			Hatchback	5.0000			1		France		1		1
+Ford F-150			Pickup		6.0000			1		USA		1		1
 
 
 Возможно у вас ошибка в ожидаемом результате, или я неправильно понимаю задание:
-
+``
 select 
 	r.car,
 	r.position,
@@ -82,11 +82,11 @@ where
 	c.class = 'Sedan'
 order by 
 	r.position;
-
+``
 # Result:
 
-car				position	class
-BMW 3 Series		3		Sedan
-Audi A4				8		Sedan
+car		position	class
+BMW 3 Series	3		Sedan
+Audi A4		8		Sedan
 
 Получается в классе Sedan 2 автомобиля. Позиции каждого автомобиля 3 и 8. Раз условия > 3.0, значит берется 1 автомобиль и в low_position_count будет значение 1, а не 2.
