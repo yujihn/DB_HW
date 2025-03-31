@@ -47,6 +47,7 @@ HW_DB_Tasks
 #### HW_DB_2:  
 *    DB_2_Initialisation.sql – скрипт создания и наполнения второй базы данных.  
 *    DB_2_Task_1.sql ... DB_2_Task_5.sql – SQL-скрипты с решениями пяти отдельных задач.  
+*    DB_2_Task_5_DESCRIPTION.txt – файл с описанием выполнения задания DB_2_Task_5.  
 #### HW_DB_3:  
 *    DB_3_Initialisation.sql – скрипт создания и наполнения третьей базы данных.  
 *    DB_3_Task_1.sql, DB_3_Task_2.sql, DB_3_Task_3.sql – SQL-скрипты с решениями.  
