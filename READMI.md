@@ -8,6 +8,7 @@
 Проект рассчитан на использование PostgreSQL (рекомендуемая версия — 12 и выше). Работа выполнялась на версии PostgreSQL 17.4 on x86_64-windows, compiled by msvc-19.42.34436, 64-bit.  
 Состав:  
 В каждой группе содержится один файл со скриптом для создания и наполнения базы (DB_N_Initialisation.sql) и несколько файлов с решениями заданий (DB_N_Task_n.sql).  
+Так же в корневой папке репозитория хранится [файл](https://github.com/yujihn/DB_HW/blob/master/query_RESULTS.txt) результатами запросов.
 
 ## 2. **Структура проекта.**  
 
@@ -31,10 +32,12 @@ HW_DB_Tasks
 │   ├── DB_3_Task_2.sql
 │   └── DB_3_Task_3.sql
 └── HW_DB_4
-    ├── DB_4_Initialisation.sql
-    ├── DB_4_Task_1.sql
-    ├── DB_4_Task_2.sql
-    └── DB_4_Task_3.sql
+│   ├── DB_4_Initialisation.sql
+│   ├── DB_4_Task_1.sql
+│   ├── DB_4_Task_2.sql
+|   └── DB_4_Task_3.sql
+└── READMI.md
+└── query_RESULTS.txt
 ```
 
 ### Описание содержимого папок (групп):
