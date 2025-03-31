@@ -8,7 +8,7 @@
 Проект рассчитан на использование PostgreSQL (рекомендуемая версия — 12 и выше). Работа выполнялась на версии PostgreSQL 17.4 on x86_64-windows, compiled by msvc-19.42.34436, 64-bit.  
 Состав:  
 В каждой группе содержится один файл со скриптом для создания и наполнения базы (DB_N_Initialisation.sql) и несколько файлов с решениями заданий (DB_N_Task_n.sql).  
-Так же в корневой папке репозитория хранится [файл query_RESULTS.txt](https://github.com/yujihn/DB_HW/blob/master/query_RESULTS.txt) результатами запросов.
+Так же в корневой папке репозитория хранится файл [query_RESULTS.txt](https://github.com/yujihn/DB_HW/blob/master/query_RESULTS.txt) результатами запросов.
 
 ## 2. **Структура проекта.**  
 
