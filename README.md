@@ -26,6 +26,7 @@ HW_DB_Tasks
 │   ├── DB_2_Task_3.sql
 │   ├── DB_2_Task_4.sql
 │   └── DB_2_Task_5.sql
+│   └── DB_2_Task_5_DESCRIPTION.txt
 ├── HW_DB_3
 │   ├── DB_3_Initialisation.sql
 │   ├── DB_3_Task_1.sql
